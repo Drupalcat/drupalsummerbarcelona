@@ -1873,3 +1873,55 @@ body.is-mobile {
   font-size: 0.8rem;
   margin-right: 1em;
 }
+
+/* Sponsors*/
+.sponsor {
+  display: inline-block;
+  list-style: none;
+  width: 32%;
+
+  &:hover {
+    opacity: 0.8;
+    transition: 0.2s;
+  }
+
+  &__list {
+    margin: 2em 0 5em;
+    padding: 0;
+  }
+
+  &__link {
+    border: none;
+  }
+
+  &__img {
+    max-width: 90%;
+    max-height: 100px;
+    vertical-align: middle;
+  }
+
+  &__title {
+    border: 0;
+  }
+
+  &__text {
+    max-width: 60%;
+    margin: 0 auto 2em;
+  }
+}
+
+/* Collaborators */
+.colaborators {
+  a {
+    border: none;
+  }
+  li {
+    padding: 0;
+    list-style: none;
+  }
+
+  ul {
+    margin: 0;
+    padding: 0;
+  }
+}

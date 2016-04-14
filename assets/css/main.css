@@ -2515,3 +2515,38 @@ body.is-mobile.landing #footer {
 .language-switcher {
   font-size: 0.8rem;
   margin-right: 1em; }
+
+/* Sponsors*/
+.sponsor {
+  display: inline-block;
+  list-style: none;
+  width: 32%; }
+  .sponsor:hover {
+    opacity: 0.8;
+    transition: 0.2s; }
+  .sponsor__list {
+    margin: 2em 0 5em;
+    padding: 0; }
+  .sponsor__link {
+    border: none; }
+  .sponsor__img {
+    max-width: 90%;
+    max-height: 100px;
+    vertical-align: middle; }
+  .sponsor__title {
+    border: 0; }
+  .sponsor__text {
+    max-width: 60%;
+    margin: 0 auto 2em; }
+
+/* Collaborators */
+.colaborators a {
+  border: none; }
+
+.colaborators li {
+  padding: 0;
+  list-style: none; }
+
+.colaborators ul {
+  margin: 0;
+  padding: 0; }
