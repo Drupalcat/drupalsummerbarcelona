@@ -2516,6 +2516,11 @@ body.is-mobile.landing #footer {
   font-size: 0.8rem;
   margin-right: 1em; }
 
+.footnote {
+  font-size: 0.9rem;
+  text-align: left;
+}
+
 /* Sponsors*/
 .sponsor {
   display: inline-block;
