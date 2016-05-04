@@ -2516,21 +2516,16 @@ body.is-mobile.landing #footer {
   font-size: 0.8rem;
   margin-right: 1em; }
 
-.footnote {
-  font-size: 0.9rem;
-  text-align: left;
-}
-
 /* Sponsors*/
 .sponsor {
   display: inline-block;
   list-style: none;
-  width: 24%;
+  width: 19%;
   padding: 0; }
   @media screen and (max-width: 736px) {
     .sponsor {
       width: 95%;
-      margin-bottom: 1em; } }
+      margin-bottom: 2em; } }
   .sponsor:hover {
     opacity: 0.8;
     transition: 0.2s; }
