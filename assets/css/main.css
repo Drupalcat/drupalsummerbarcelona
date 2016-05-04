@@ -2525,7 +2525,12 @@ body.is-mobile.landing #footer {
 .sponsor {
   display: inline-block;
   list-style: none;
-  width: 32%; }
+  width: 24%;
+  padding: 0; }
+  @media screen and (max-width: 736px) {
+    .sponsor {
+      width: 95%;
+      margin-bottom: 1em; } }
   .sponsor:hover {
     opacity: 0.8;
     transition: 0.2s; }
@@ -2538,6 +2543,13 @@ body.is-mobile.landing #footer {
     max-width: 90%;
     max-height: 100px;
     vertical-align: middle; }
+  .sponsor__img--vertical {
+    max-width: 90%;
+    max-height: 175px;
+    vertical-align: middle; }
+    @media screen and (max-width: 736px) {
+      .sponsor__img--vertical {
+        max-height: 200px; } }
   .sponsor__title {
     border: 0; }
   .sponsor__text {

@@ -1878,7 +1878,13 @@ body.is-mobile {
 .sponsor {
   display: inline-block;
   list-style: none;
-  width: 32%;
+  width: 24%;
+  padding: 0;
+
+  @include breakpoint(small) {
+    width: 95%;
+    margin-bottom: 2em;
+  }
 
   &:hover {
     opacity: 0.8;
@@ -1898,6 +1904,16 @@ body.is-mobile {
     max-width: 90%;
     max-height: 100px;
     vertical-align: middle;
+  }
+
+  &__img--vertical {
+    max-width: 90%;
+    max-height: 175px;
+    vertical-align: middle;
+
+    @include breakpoint(small) {
+      max-height: 200px;
+    }
   }
 
   &__title {
