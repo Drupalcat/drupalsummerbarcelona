@@ -1880,15 +1880,27 @@ body.is-mobile {
 }
 .speaker {
   display: inline-block;
-  width: 24%;
   border: none;
+  width: 24%;
+  margin-bottom: 1rem;
+
+  @include breakpoint(small) {
+    width: 45%;
+  }
+
+  @include breakpoint(xsmall) {
+    width: 100%;
+  }
 }
 .speaker__img {
   border-radius: 100%;
   overflow: hidden;
-  max-width: 90%;
+  width: 90%;
+  max-width: 220px;
 }
 .speaker__name {
+  clear: left;
+  display: block;
   border-radius: 100%;
   overflow: hidden;
 }

@@ -2522,15 +2522,25 @@ body.is-mobile.landing #footer {
 
 .speaker {
   display: inline-block;
+  border: none;
   width: 24%;
-  border: none; }
+  margin-bottom: 1rem; }
+  @media screen and (max-width: 736px) {
+    .speaker {
+      width: 45%; } }
+  @media screen and (max-width: 480px) {
+    .speaker {
+      width: 100%; } }
 
 .speaker__img {
   border-radius: 100%;
   overflow: hidden;
-  max-width: 90%; }
+  width: 90%;
+  max-width: 220px; }
 
 .speaker__name {
+  clear: left;
+  display: block;
   border-radius: 100%;
   overflow: hidden; }
 
