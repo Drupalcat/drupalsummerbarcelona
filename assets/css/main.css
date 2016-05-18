@@ -2516,6 +2516,27 @@ body.is-mobile.landing #footer {
   font-size: 0.8rem;
   margin-right: 1em; }
 
+/* Speakers */
+.speakers-list {
+  margin-bottom: 2em; }
+
+.speaker {
+  display: inline-block;
+  width: 24%;
+  border: none; }
+
+.speaker__img {
+  border-radius: 100%;
+  overflow: hidden;
+  max-width: 90%; }
+
+.speaker__name {
+  border-radius: 100%;
+  overflow: hidden; }
+
+.speakers-criteria {
+  font-size: 0.8rem; }
+
 /* Sponsors*/
 .sponsor {
   display: inline-block;
