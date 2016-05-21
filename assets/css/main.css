@@ -2588,8 +2588,13 @@ body.is-mobile.landing #footer {
 
 .colaborators li {
   padding: 0;
-  list-style: none; }
+  list-style: none;
+  display: inline-block;
+  margin-right: 1em; }
 
 .colaborators ul {
   margin: 0;
   padding: 0; }
+
+.colaborators img {
+  vertical-align: middle; }

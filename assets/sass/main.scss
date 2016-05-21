@@ -1969,10 +1969,16 @@ body.is-mobile {
   li {
     padding: 0;
     list-style: none;
+    display: inline-block;
+    margin-right: 1em;
   }
 
   ul {
     margin: 0;
     padding: 0;
+  }
+
+  img {
+    vertical-align: middle;
   }
 }
