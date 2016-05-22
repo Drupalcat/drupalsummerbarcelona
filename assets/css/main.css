@@ -2598,3 +2598,6 @@ body.is-mobile.landing #footer {
 
 .colaborators img {
   vertical-align: middle; }
+
+.small {
+  font-size: 0.85rem; }
