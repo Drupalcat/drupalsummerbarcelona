@@ -2552,7 +2552,8 @@ body.is-mobile.landing #footer {
   display: inline-block;
   list-style: none;
   width: 19%;
-  padding: 0; }
+  padding: 0;
+  margin-bottom: 1em; }
   @media screen and (max-width: 736px) {
     .sponsor {
       width: 95%;
@@ -2570,7 +2571,7 @@ body.is-mobile.landing #footer {
     max-height: 100px;
     vertical-align: middle; }
   .sponsor__img--vertical {
-    max-width: 90%;
+    max-width: 95%;
     max-height: 175px;
     vertical-align: middle; }
     @media screen and (max-width: 736px) {

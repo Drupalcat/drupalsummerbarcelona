@@ -1915,6 +1915,7 @@ body.is-mobile {
   list-style: none;
   width: 19%;
   padding: 0;
+  margin-bottom: 1em;
 
   @include breakpoint(small) {
     width: 95%;
@@ -1942,7 +1943,7 @@ body.is-mobile {
   }
 
   &__img--vertical {
-    max-width: 90%;
+    max-width: 95%;
     max-height: 175px;
     vertical-align: middle;
 
