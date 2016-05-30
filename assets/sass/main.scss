@@ -1970,8 +1970,12 @@ body.is-mobile {
 
   &__img--vertical {
     max-width: 95%;
-    max-height: 175px;
+    max-height: 170px;
     vertical-align: middle;
+
+    @include breakpoint(medium) {
+      max-height: 100px;
+    }
 
     @include breakpoint(small) {
       max-height: 200px;

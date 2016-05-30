@@ -2592,8 +2592,11 @@ body.is-mobile.landing #footer {
     vertical-align: middle; }
   .sponsor__img--vertical {
     max-width: 95%;
-    max-height: 175px;
+    max-height: 170px;
     vertical-align: middle; }
+    @media screen and (max-width: 980px) {
+      .sponsor__img--vertical {
+        max-height: 100px; } }
     @media screen and (max-width: 736px) {
       .sponsor__img--vertical {
         max-height: 200px; } }
