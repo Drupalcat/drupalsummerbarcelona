@@ -237,7 +237,7 @@ header {
     h2, h3, h4, h5, h6 {
       border-bottom: solid 2px _palette(border);
       display: inline-block;
-      padding-bottom: 1em;
+      padding-bottom: 0.5em;
       position: relative;
 
       &:after {
@@ -1870,13 +1870,39 @@ body.is-mobile {
 }
 
 .language-switcher {
+  position: absolute;
   font-size: 0.8rem;
   margin-right: 1em;
+  right: 150px;
+  top: 1px;
+
+  @include breakpoint(xsmall) {
+    display: none;
+  }
+
+  @include breakpoint(small) {
+    right: 80px;
+  }
+}
+
+#menu ul > li.main-menu__language {
+  display: none;
+  font-size: 0.8rem;
+
+  @include breakpoint(small) {
+    display: block;
+  }
+
+  a {
+    display: inline;
+    font-size: 0.8rem;
+    border-bottom: dotted 1px;
+  }
 }
 
 /* Speakers */
 .speakers-list {
-  margin-bottom: 2em;
+  margin-bottom: 4em;
 }
 .speaker {
   display: inline-block;

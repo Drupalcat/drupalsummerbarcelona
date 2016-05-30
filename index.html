@@ -35,7 +35,26 @@
         <!-- Header -->
           <header id="header" class="alt">
             <h1><a href="index.html">Drupal Summer Barcelona</a></h1>
-            <nav id="nav"><div class="language-switcher">CA / <a href="index-en.html">EN</a> / <a href="index-es.html">ES</a></div></nav>
+            <div class="language-switcher">CA / <a href="index-en.html">EN</a> / <a href="index-es.html">ES</a></div>
+            <nav id="nav">
+
+              <ul>
+                <li class="special">
+                  <a href="#menu" class="menuToggle"><span>Menu</span></a>
+                  <div id="menu">
+                    <ul>
+                      <li><a href="index.html">Home</a></li>
+                      <li><a href="index.html#speakers">Ponents destacats</a></li>
+                      <li><a href="index.html#sessions">Sessions</a></li>
+                      <li><a href="index.html#schedule">Horari</a></li>
+                      <li><a href="index.html#tickets">Comprar entrades</a></li>
+                      <li><a href="index.html#sponsors">Patrocinadors</a></li>
+                      <li class="main-menu__language">CA / <a href="index-en.html">EN</a> / <a href="index-es.html">ES</a></li>
+                    </ul>
+                  </div>
+                </li>
+              </ul>
+            </nav>
 
           </header>
 
@@ -67,7 +86,7 @@
           <section id="speakers" class="wrapper style2 special">
             <div class="inner">
               <header class="major">
-                <h2>Speakers</h2>
+                <h2>Ponents destacats</h2>
                 <div class="speakers-list">
                   <a class="speaker" href="https://www.drupal.org/u/juampynr">
                     <img class="speaker__img" src="images/speakers/juampynr.jpg" />
@@ -86,6 +105,7 @@
                     <span class="speaker__name">Jose Jiménez</span>
                   </a>
                 </div>
+                <h3 id="sessions">Proposa una sessió</h3>
                 <p>Vols parlar sobre el Drupal 8 o temes relacionats? Busquem xerrades sobre desenvolupament, però també sobre testing, front end, negoci, metodologies de treball, site building o marketing. Anima't i proposa la teva en català, castellà o anglès.</p>
                 <a href="mailto:esdeveniments@drupal.cat" class="button special">Proposa una sessió</a>
                 <p class="speakers-criteria">Fins al 6 de juny. <a href="session-selection.html">Quin tipus de sessió busquem?</a></p>
@@ -166,7 +186,7 @@
           </section>
 
 
-          <!-- Tickets -->
+        <!-- Tickets -->
           <section id="tickets" class="wrapper style2 special">
             <div class="inner">
               <header class="major">

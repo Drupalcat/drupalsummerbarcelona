@@ -1040,7 +1040,7 @@ header.major {
   header.major h2, header.major h3, header.major h4, header.major h5, header.major h6 {
     border-bottom: solid 2px #fff;
     display: inline-block;
-    padding-bottom: 1em;
+    padding-bottom: 0.5em;
     position: relative; }
     header.major h2:after, header.major h3:after, header.major h4:after, header.major h5:after, header.major h6:after {
       content: '';
@@ -2513,12 +2513,32 @@ body.is-mobile.landing #footer {
   background-color: #1d242a; }
 
 .language-switcher {
+  position: absolute;
   font-size: 0.8rem;
-  margin-right: 1em; }
+  margin-right: 1em;
+  right: 150px;
+  top: 1px; }
+  @media screen and (max-width: 480px) {
+    .language-switcher {
+      display: none; } }
+  @media screen and (max-width: 736px) {
+    .language-switcher {
+      right: 80px; } }
+
+#menu ul > li.main-menu__language {
+  display: none;
+  font-size: 0.8rem; }
+  @media screen and (max-width: 736px) {
+    #menu ul > li.main-menu__language {
+      display: block; } }
+  #menu ul > li.main-menu__language a {
+    display: inline;
+    font-size: 0.8rem;
+    border-bottom: dotted 1px; }
 
 /* Speakers */
 .speakers-list {
-  margin-bottom: 2em; }
+  margin-bottom: 4em; }
 
 .speaker {
   display: inline-block;
