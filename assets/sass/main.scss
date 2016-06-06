@@ -2017,3 +2017,39 @@ body.is-mobile {
 .small {
   font-size: 0.85rem;
 }
+
+/* Sessions */
+.session {
+  max-width: 40em;
+}
+
+.session__speaker {
+  text-align: center;
+  margin: -12em 0 3em 0;
+
+  @include breakpoint(medium) {
+    margin: -8em 0 3em 0;
+  }
+
+  @include breakpoint(small) {
+    margin: -4em 0 3em 0;
+  }
+
+  .speaker__img {
+    @include breakpoint(small) {
+      max-width: 150px;
+    }
+  }
+}
+
+.session__info {
+  text-align: center;
+}
+
+.featured-session {
+  background-color: #2E3842;
+  border-radius: 3px;
+  color: #f3eedd;
+  padding: 0.15rem 0.5rem;
+}
+

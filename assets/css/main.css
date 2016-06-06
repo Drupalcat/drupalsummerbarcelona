@@ -2802,3 +2802,26 @@ body.is-mobile.landing #footer {
 
 .small {
   font-size: 0.85rem; }
+
+/* Sessions */
+.session__speaker {
+  text-align: center;
+  margin: -12em 0 3em 0; }
+  @media screen and (max-width: 980px) {
+    .session__speaker {
+      margin: -8em 0 3em 0; } }
+  @media screen and (max-width: 736px) {
+    .session__speaker {
+      margin: -4em 0 3em 0; } }
+  @media screen and (max-width: 736px) {
+    .session__speaker .speaker__img {
+      max-width: 150px; } }
+
+.session__info {
+  text-align: center; }
+
+.featured-session {
+  background-color: #2E3842;
+  border-radius: 3px;
+  color: #f3eedd;
+  padding: 0.15rem 0.5rem; }

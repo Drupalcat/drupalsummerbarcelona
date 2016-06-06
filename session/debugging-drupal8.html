@@ -1,0 +1,130 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <title>Debugging in Drupal 8 by Juampy NR | Drupal Summer Barcelona</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+    <link rel="stylesheet" href="../assets/css/main.css" />
+    <!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+    <!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+
+    <link rel="canonical" href="http://summer.drupal.cat/" />
+
+    <meta property="og:region" content="Catalunya" />
+    <meta property="og:email" content="hola@drupal.cat" />
+    <meta property="twitter:title" content="Drupal Summer Barcelona" />
+    <meta property="twitter:site" content="@drupalsummer" />
+    <meta property="og:title" content="Drupal Summer Barcelona" />
+    <meta name="description" content="El Drupal Summer Barcelona és un esdeveniment centrat en el Drupal per a potenciar-ne l’ús i interconnectar l’ecosistema d’empreses, desenvolupadors, dissenyadors, caps de projecte, usuaris i altres professionals, i alhora donar a conèixer l’ecosistema del Drupal local a fora." />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="http://summer.drupal.cat/" />
+    <meta property="og:site_name" content="Drupal Summer Barcelona" />
+    <meta name="keywords" content="Drupal, Barcelona, Evento, open-source, web, summer" />
+    <meta property="og:description" content="El Drupal Summer Barcelona és un esdeveniment centrat en el Drupal per a potenciar-ne l’ús i interconnectar l’ecosistema d’empreses, desenvolupadors, dissenyadors, caps de projecte, usuaris i altres professionals, i alhora donar a conèixer l’ecosistema del Drupal local a fora." />
+    <meta name="MobileOptimized" content="width">
+    <meta name="HandheldFriendly" content="true">
+    <meta name="viewport" content="width=device-width">
+    <meta http-equiv="cleartype" content="on">
+  </head>
+  <body class="landing">
+
+    <!-- Page Wrapper -->
+      <div id="page-wrapper">
+
+        <!-- Header -->
+          <header id="header">
+            <h1><a href="../index.html">Drupal Summer Barcelona</a></h1>
+          </header>
+
+
+        <!-- Main -->
+          <article id="main">
+            <header>
+              <h2>Debugging in Drupal 8</h2>
+              <p>Featured speaker</p>
+            </header>
+
+
+            <section class="wrapper style5">
+              <div class="inner">
+                <div class="session__speaker">
+                  <img class="speaker__img" src="../images/speakers/juampynr.jpg" />
+                  <h3>by <a href="https://www.drupal.org/u/juampynr">Juampy NR</a></h3>
+                </div>
+
+                <p>One of the first things that I found out when I started working with Drupal 8 is that: since the code is object oriented, it flows through a higher number of files than in Drupal 7. Therefore, debugging a piece of logic by using prints, dpms, dds and such becomes inefficient. Instead, we need to embrace and master the debugger; not only to find bugs but also to understand Drupal's APIs. My trust in the debugger is so strong that I think that developers who don’t learn how to use the debugger won’t last long in Drupal 8.</p>
+                <p>After installing the debugger, the first challenge is: where should I start from? Drupal 8's bootstrapping process can be daunting: it makes dozens of callbacks before the actual request handler that we are looking for gets called. This can be frustrating for beginners, but I discovered that it is a learning process that pays dividends. In this session I will show a few clips of real life examples where we find a bug, we use a debugging technique to understand it, and then we fix it.</p>
+                <p>Here are some of the topics that we will see:</p>
+                <ul>
+                  <li>Adjusting the debugger so it listens for all requests and waits for the first breakpoint.</li>
+                  <li>Setting a breakpoint on a line that throws an error and working our way up the backtrace.</li>
+                  <li>Debugging unexpected behavior that does not throw an error.</li>
+                  <li>Debugging Drush / Console scripts.</li>
+                  <li>Debugging test runs.</li>
+                  <li>Debugging services with PsySH.</li>
+                </ul>
+                <p>Back end developers with some experience working on Drupal 7 projects and looking forward to work with Drupal 8 will leave the session with a few tips on how to find bugs and understand concepts by debugging code.</p>
+                <h4 class="session__info">Drupal level: Intermediate, Language: English</h4>
+                <hr></hr>
+                <h3>About JuampyNR</h3>
+                Organization: Lullabot</br>
+                <p><strong><a href="https://twitter.com/juampynr">Twitter</a> | <a href="https://www.linkedin.com/in/juampynr">Linkedin</a></strong></p>
+                <p>Juampy started working as a web developer in 2006 after finishing his Computer Engineering & Information Systems degree in London. After spending a few years developing in Ruby on Rails and Symfony, Juampy discovered Drupal. Drawn by the Drupal community and the "mind-blowing effect of getting a project done 10 times faster than before", Juampy has never looked back.</p>
+                <p>Since then, he's become more and more involved in the issue queues, which led in turn to becoming maintainer of Twitter, OAuth and Devel modules, among others. He also organizes events, giving sessions at national and international conferences, and wrote the <a href="https://www.amazon.com/Drush-Users-Guide-Novillo-Requena-ebook/dp/B007SVJ8MA?ie=UTF8&*Version*=1&*entries*=0">Drush User's Guide</a> and <a href="https://www.packtpub.com/web-development/drush-developers-second-edition">Drush for Developers</a>. He feels privileged to be able to experiment, have fun and be challenged everyday. Before joining Lullabot, Juampy worked for digital companies in the UK, Bolivia, Spain and the United States for clients such as the BBC, Reuters and the Spanish Gas Natural Fenosa. Juampy lives in Madrid, Spain. He enjoys spending his free time with relatives and friends, playing squash, roller skating, golfing and reading books. He is known as juampynr at Drupal.org and IRC.</p>
+              </div>
+
+            </section>
+          </article>
+
+        <!-- Footer -->
+          <footer id="footer">
+            <ul class="icons">
+              <li><a href="https://twitter.com/drupalsummer" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+              <li><a href="https://www.facebook.com/groups/218039951547177/" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
+            </ul>
+            <h5>Col·labora:</h5>
+            <ul class="colaborators">
+              <li>
+                <a href="http://citilab.eu">
+                  <img src="../images/citilab-logo.png" alt="Logo del Citilab" title="Logo del Citilab" width="100"/>
+                </a>
+              </li>
+              <li>
+                <a href="https://www.forcontu.com/">
+                  <img src="../images/logo-forcontu.svg" alt="Logo Forcontu" title="Logo Forcontu" width="180"/>
+                </a>
+              </li>
+              <li>
+                <a href="http://asociaciondrupal.es/">
+                  <img src="../images/logo-aed.svg" alt="Logo AED" title="Logo AED" width="170"/>
+                </a>
+              </li>
+            </ul>
+            <ul class="copyright">
+              <li>&copy; 2016</li><li><a href="http://drupal.cat">Drupal.cat</a></li>
+            </ul>
+          </footer>
+
+      </div>
+
+    <!-- Scripts -->
+    <script src="../assets/js/jquery.min.js"></script>
+    <script src="../assets/js/jquery.scrollex.min.js"></script>
+    <script src="../assets/js/jquery.scrolly.min.js"></script>
+    <script src="../assets/js/skel.min.js"></script>
+    <script src="../assets/js/util.js"></script>
+    <!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+    <script src="../assets/js/main.js"></script>
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-76564920-1', 'auto');
+      ga('send', 'pageview');
+
+    </script>
+  </body>
+</html>
