@@ -2768,7 +2768,7 @@ body.is-mobile.landing #footer {
     max-height: 100px;
     vertical-align: middle; }
   .sponsor__img--vertical {
-    max-width: 95%;
+    max-width: 75%;
     max-height: 170px;
     vertical-align: middle; }
     @media screen and (max-width: 980px) {
@@ -2804,6 +2804,9 @@ body.is-mobile.landing #footer {
   font-size: 0.85rem; }
 
 /* Sessions */
+.session {
+  max-width: 40em; }
+
 .session__speaker {
   text-align: center;
   margin: -12em 0 3em 0; }
