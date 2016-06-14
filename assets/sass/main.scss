@@ -1773,7 +1773,7 @@ body.is-mobile {
   text-align: center;
 
   .icons {
-    font-size: 1.25em;
+    font-size: 2.25em;
 
     a {
       color: _palette(fg-light);
@@ -2053,3 +2053,11 @@ body.is-mobile {
   padding: 0.15rem 0.5rem;
 }
 
+.logo-drupalcat {
+  vertical-align: sub;
+  border: 0;
+
+  img {
+    border: 0;
+  }
+}
