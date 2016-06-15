@@ -1,0 +1,133 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <title>Docker &amp; Drupal: Zero downtime deploy by Ignacio López</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+    <link rel="stylesheet" href="../assets/css/main.css" />
+    <!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+    <!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+
+    <link rel="canonical" href="http://summer.drupal.cat/" />
+
+    <meta property="og:region" content="Catalunya" />
+    <meta property="og:email" content="hola@drupal.cat" />
+    <meta property="twitter:title" content="Drupal Summer Barcelona" />
+    <meta property="twitter:site" content="@drupalsummer" />
+    <meta property="og:title" content="Drupal Summer Barcelona" />
+    <meta name="description" content="El Drupal Summer Barcelona és un esdeveniment centrat en el Drupal per a potenciar-ne l’ús i interconnectar l’ecosistema d’empreses, desenvolupadors, dissenyadors, caps de projecte, usuaris i altres professionals, i alhora donar a conèixer l’ecosistema del Drupal local a fora." />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="http://summer.drupal.cat/" />
+    <meta property="og:site_name" content="Drupal Summer Barcelona" />
+    <meta name="keywords" content="Drupal, Barcelona, Evento, open-source, web, summer" />
+    <meta property="og:description" content="El Drupal Summer Barcelona és un esdeveniment centrat en el Drupal per a potenciar-ne l’ús i interconnectar l’ecosistema d’empreses, desenvolupadors, dissenyadors, caps de projecte, usuaris i altres professionals, i alhora donar a conèixer l’ecosistema del Drupal local a fora." />
+    <meta name="MobileOptimized" content="width">
+    <meta name="HandheldFriendly" content="true">
+    <meta name="viewport" content="width=device-width">
+    <meta http-equiv="cleartype" content="on">
+  </head>
+  <body class="landing">
+
+    <!-- Page Wrapper -->
+      <div id="page-wrapper">
+
+        <!-- Header -->
+          <header id="header">
+            <h1><a href="../index.html">Drupal Summer Barcelona</a></h1>
+          </header>
+
+
+        <!-- Main -->
+          <article id="main">
+            <header>
+              <h2>Docker &amp; Drupal: Zero downtime deploy</h2>
+              <p>by <a href="https://www.drupal.org/u/ignaciolflores" target="_blank">Ignacio López</a></p>
+            </header>
+
+
+            <section class="wrapper style5">
+              <div class="inner">
+
+              <p>Todos los hemos trabajado con Drupal y Docker, nos hemos enfrentado alguna vez a la pregunta: ¿está lista mi configuración para ejecutarla en un entorno de producción?.</p>
+
+<p>Un entorno de producción tiene muchas particularidades que lo diferencian de los entornos de desarrollo, y es por este motivo que no se puede tomar a la ligera la decisión de sustituir toda nuestra configuración de servidores y todo nuestro flujo de despliegues a un nuevo paradigma orientado a contenedores.</p>
+
+<p>En esta sesión quiero compartir lo que hemos aprendido en <a href="http://introbay.com" target="_blank">Introbay</a> en materia de despliegues. El objetivo es, no sólo mostrar con ejemplos prácticos una configuración lista para usar en entornos reales, sino iniciar un debate que permita ir mejorando cada vez más este tipo de tareas que tanto estrés y tanta expectación suelen despertar: los despliegues a producción sin tiempo de caída.</p>
+
+<p>Tanto los amantes de Docker, como los más críticos con esta tecnología serán bienvenidos e invitados a participar activamente con todo tipo de preguntas.</p>
+
+<p>Espero que tras esta sesión, algunos de los asistentes se vayan sabiendo que su pelo aún tiene un futuro prometedor en su cabeza y que el marcapasos todavía puede esperar. Eso si, tendrán que buscar emoción en otro tipo de actividades.</p>
+
+
+              <h4 class="session__info">Drupal level: Intermediate, Language: Español</h4>
+              <hr></hr>
+              <h3>About Samuel Solís</h3>
+              Organization: <a href="http://introbay.com" target="_blank">Introbay</a></br>
+
+              <p><strong><a target="_blank" href="https://twitter.com/ignaciolflores" target="_blank">Twitter</a> | <a href="https://es.linkedin.com/in/ignaciolflores" target="_blank">Linkedin</a></strong></p>
+
+              <p>Miembro de #drupal-murcia y amigo de achobot, disfruta con la familia, de las marineras y las cervecicas en su Murcia natal siempre y cuando no llueva o haga frío. Lo podrás encontrar por IRC como ignaciolflores.</p>
+              </div>
+
+            </section>
+          </article>
+
+        <!-- Footer -->
+          <footer id="footer">
+            <h5>Organitza:</h5>
+            <ul class="icons">
+              <li><a class="logo-drupalcat" href="http://drupal.cat/"><img src="../images/logo-drupalcat.png" alt="Logo Drupal.cat" title="Drupal.cat" width="200" /></a></li>
+              <li><a href="https://twitter.com/drupalsummer" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+              <li><a href="https://www.facebook.com/groups/218039951547177/" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
+            </ul>
+            <h5>Col·labora:</h5>
+            <ul id="colaborators" class="colaborators">
+              <li>
+                <a href="http://citilab.eu">
+                  <img src="../images/citilab-logo.png" alt="Logo del Citilab" title="Citilab" width="100"/>
+                </a>
+              </li>
+              <li>
+                <a href="https://www.forcontu.com/">
+                  <img src="../images/logo-forcontu.svg" alt="Logo Forcontu" title="Forcontu" width="180"/>
+                </a>
+              </li>
+              <li>
+                <a href="http://asociaciondrupal.es/">
+                  <img src="../images/logo-aed.svg" alt="Logo AED" title="AED" width="170"/>
+                </a>
+              </li>
+              <li>
+                <a href="http://www.ctecno.cat/">
+                  <img src="../images/logo-ctecno.png" alt="Logo Ctecno" title="Ctecno" width="170"/>
+                </a>
+              </li>
+            </ul>
+            <ul class="copyright">
+              <li>&copy; 2016</li><li><a href="http://drupal.cat">Drupal.cat</a></li>
+            </ul>
+          </footer>
+
+      </div>
+
+    <!-- Scripts -->
+    <script src="../assets/js/jquery.min.js"></script>
+    <script src="../assets/js/jquery.scrollex.min.js"></script>
+    <script src="../assets/js/jquery.scrolly.min.js"></script>
+    <script src="../assets/js/skel.min.js"></script>
+    <script src="../assets/js/util.js"></script>
+    <!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+    <script src="../assets/js/main.js"></script>
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-76564920-1', 'auto');
+      ga('send', 'pageview');
+
+    </script>
+  </body>
+</html>
