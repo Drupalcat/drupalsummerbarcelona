@@ -2820,6 +2820,9 @@ body.is-mobile.landing #footer {
     .session__speaker .speaker__img {
       max-width: 150px; } }
 
+.schedule a {
+  border-bottom: 0; }
+
 .session__info {
   text-align: center; }
 
