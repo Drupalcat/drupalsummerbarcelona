@@ -1,7 +1,7 @@
 <!DOCTYPE HTML>
 <html>
   <head>
-    <title>Drupal 8 simple page by Samuel Solís</title>
+    <title>QA on Drupal projects by Alejandro Gómez Morón | Drupal Summer Barcelona</title>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
@@ -41,46 +41,44 @@
         <!-- Main -->
           <article id="main">
             <header>
-              <h2>Drupal 8 simple page</h2>
-              <p>by <a href="https://www.drupal.org/u/estoyausente" target="_blank">Samuel Solís</a></p>
+              <h2>QA on drupal projects</h2>
+              <p>by <a href="https://twitter.com/agomezmoron">Alejandro Gómez Morón</a></p>
             </header>
 
 
             <section class="wrapper style5">
               <div class="inner">
 
-              <p>Drupal 8 obliga a cambiar la forma de pensar del drupalero tipo: OOP, MVC, Twig, todo parece tan distinto...</p>
-
-<p>Mi primer proyecto en Drupal8 ha consistido en una landing page de registro que mostraba una serie de elementos random (listas, imágenes, links, etc.), un formulario que se enviaba mediante un web service y un par de tipos de contenido que se pintaban con una pequeña lógica.</p>
-
-<p>En la charla pretendo contar cómo construir un sistema base en Drupal 8 y los pormenores que he ido encontrando para que aquellos usuarios que se adentren en esta nueva versión se ahorren unas horas de investigación y desarrollo. Prácticamente no he utilizado módulos contrib y los ejemplos serán mostrando código.</p>
-
-<p>En concreto veremos:</p>
-
-<ul>
-<li>Como enrutar elementos: ficheros routing.yml</li>
-<li>Render API: cambios y mejoras.</li>
-<li>Custom themes: Opciones, plantillas, preprocesados y suggestions.</li>
-<li>Form API: como han cambiado los formularios.</li>
-<li>Inyección de dependencias: ¿Qué es y cómo funciona?</li>
-<li>Configuration manager</li>
-<li>Random tips: cosas que me han incordiado un poco y cómo las he solucionado.</li></ul>
-
-<p><a href="
-http://es.slideshare.net/SamuelSols/drupal-8-simple-page-mi-primer-proyecto-en-drupal-8" target="_blank">Slides</a></p>
-
-              <h4 class="session__info">Drupal level:Basic, Language: Español</h4>
-              <hr></hr>
-              <h3>About Samuel Solís</h3>
-              Organization: <a href="http://www.bodeboca.com/" target="_blank">Bodeboca</a></br>
-
-              <p><strong><a target="_blank" href="https://twitter.com/estoyausente" target="_blank">Twitter</a> | <a href="https://www.linkedin.com/in/samuelsolisfuentes/" target="_blank">Linkedin</a></strong></p>
-
-              <p>Comencé con Drupal allá por el 2010 en una pequeña consultora en mi tierra natal, Cáceres. Desde aquellos primeros drupales 6 para entidades y empresas extremeñas hasta lo nuevo que hay cocinándose en Drupal 8 en las entrañas de Bodeboca han pasado unos años de intenso aprendizaje.</p>
-
-<p>El punto de inflexión fue conocer la comunidad DrupalES en la Drupalcamp de Sevilla (2011) y descubrir que lo hacíamos todo mal. Atrás quedaron esos tiempos de todo en el tpl y de cosas sucias que no quieren ser recordadas. Desde entonces y con ayuda de todos he intentado adoptar las buenas prácticas y contribuir siempre que he podido, devolviendo parte de todo lo que me ha dado Drupal y sus buenas gentes.</p>
-
-<p>Soy dicharachero, alegre y divertido (y así son mis sesiones, prometido) y además de escribir código practico deporte, cocino la carne al punto y hago unas Caipirinhas estupendas. Por cierto, mi empresa vende vino... ¡Y me encanta!</p>
+                <p>One of the first things that I have found out when we talk about QA on Drupal projects, is that almost everyone thinks about xUnit testing and some of them think about having a Jenkins. But QA is much more!</p>
+                <p>Another thing developers think when they find out they will work with QA members, is that "QA is the enemy" but they are wrong: QA is a <b>friend</b>.</p>
+                <p>Here you have some things we will learn together:</p>
+                <ul>
+                  <li>What QA really means</li>
+                  <li>Integrating QA teams into Drupal teams: The team</li>
+                  <li>QA & DEV workflows together</li>
+                  <li>Type of tests to be applied</li>
+                  <li>Continous Integration</li>
+                  <ul>
+                    <li>Code Inspection</li>
+                    <li>Unit testing</li>
+                    <li>Functional testing through Selenium</li>
+                    <li>Continuous Delivery with Docker</li>
+                  </ul>
+                </ul>
+                <p>If you have experience with Drupal, all the better. But if you are starting in this world you will also be welcome, I am sure you will enjoy it!</p>
+                <h4 class="session__info">Drupal level: Intermediate, Language: English</h4>
+                <hr></hr>
+                <h3>About Alejandro (agomezmoron)</h3>
+                Organization: Emergya</br>
+                <p><strong><a href="https://twitter.com/agomezmoron">Twitter</a> | <a href="https://es.linkedin.com/in/agomezmoron">Linkedin</a></strong></p>
+                <p>Alejandro started working as a web developer in 2006 after starting his Computer Engineering & Information Systems degree at Pablo Olavide University (Seville). After spending a few years developing in PHP and JavaScript, he also started working with Java.</p>
+                <p>He moved to the UK where he worked as a developer, learning and enjoying his life there. During the ending of 2012 and the beginning of 2013, he worked at klicap - nowadays acquired by CloudBees. There he discovered how amazing Continous Integration and contributing to the community could be.</p>
+                <p>In June, 2013 he started working at Emergya as a developer in an international Drupal project but he soon discovered his real passion was the QA world. Since that moment, he has been working at Emergya building the QA area from scratch with José Antonio Sánchez  - nowadays he is the Emergya QA Area leader - and also as a Tech Project Manager.</p>
+                <p>He has been the QA lecturer at Pablo de Olavide University since 2013 because he loves transfering knowledge and bringing real world problems into the university.</p>
+                <p>He started working as Project Manager but he never forgot the QA role and so strong was his belief in the importance of QA for a project that the Emergya QA Team has been growing. With the help of some Emergya colleagues, in less than a year, the QA Team has increased by more than 12 people and they are working on the majority of the projects. </p>
+                <p>He worked as a developer in Drupal, Java and Ionic (currently) projects while always keeping an eye on the QA side, helping the QA team on the projects and also coordinating the QA Area in Emergya where, with José Antonio Sánchez and Óscar Castaño, they make a great team.</p>
+                <p>He enjoys spending his free time with relatives and friends, playing football, reading books, learning and keeping always keeping in touch with tech trends and, of course, contributing to the QA community and also to the Ionic and Angular one. He is known as agomezmoron in the community and he is a tech and QA lover.</p>
+                <p>As he says: "Behind a leader, there is an awesome team like our QA team".</p>
               </div>
 
             </section>
