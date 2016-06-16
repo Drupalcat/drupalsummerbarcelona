@@ -2018,6 +2018,15 @@ body.is-mobile {
   font-size: 0.85rem;
 }
 
+.logo-drupalcat {
+  vertical-align: sub;
+  border: 0;
+
+  img {
+    border: 0;
+  }
+}
+
 /* Sessions */
 .session {
   max-width: 40em;
@@ -2042,12 +2051,6 @@ body.is-mobile {
   }
 }
 
-.schedule {
-  a {
-    border-bottom: 0;
-  }
-}
-
 .session__info {
   text-align: center;
 }
@@ -2059,11 +2062,137 @@ body.is-mobile {
   padding: 0.15rem 0.5rem;
 }
 
-.logo-drupalcat {
-  vertical-align: sub;
-  border: 0;
+/* Schedule */
+.schedule-page {
+  .wrapper {
 
-  img {
-    border: 0;
+    @include breakpoint(medium) {
+      padding: 3em 2em 2em 2em;
+    }
+    @include breakpoint(small) {
+      padding: 2em 1em 1em 1em;
+    }
   }
+
+  .schedule {
+    @include breakpoint(small) {
+      line-height: 1.1rem;
+      font-size: 0.8rem;
+    }
+
+    @include breakpoint(xsmall) {
+      line-height: 1rem;
+      font-size: 0.75rem;
+    }
+
+    a:after {
+      content: '';
+      display: table;
+      clear: both;
+    }
+  }
+
+  table tr.no-session {
+    vertical-align: middle;
+
+    td,
+    th {
+      padding: 0.5em 0.5em 0.5em 0.75em;
+      vertical-align: middle;
+
+      @include breakpoint(small) {
+        padding: 0.5em;
+      }
+    @include breakpoint(xsmall) {
+        padding: 0.25em;
+      }
+    }
+  }
+
+  table td {
+    position: relative;
+    padding-bottom: 2em;
+
+    @include breakpoint(small) {
+      padding: 0 0.5em 1.8em 0.5em;
+    }
+    @include breakpoint(xsmall) {
+      padding: 0 0.25em 1.8em 0.25em;
+    }
+  }
+}
+
+.text-centered {
+  text-align: center;
+}
+
+.session-details {
+  position: absolute;
+  bottom: 0.4rem;
+  left: 0.75rem;
+  display: block;
+  width: 1.4rem;
+  height: 1.4rem;
+  border-radius: 100%;
+  line-height: 1.5rem;
+  font-size: 0.75rem;
+  font-weight: 700;
+  background-color: #8E8892;
+  color: #fff;
+  text-align: center;
+
+  @include breakpoint(medium) {
+
+    width: 1.1rem;
+    height: 1.1rem;
+    font-size: 0.75rem;
+    line-height: 1.2rem;;
+  }
+  @include breakpoint(small) {
+    bottom: 0.2rem;
+    left: 0;
+  }
+
+  &.outside {
+    display: inline-block;
+    position: inherit;
+    margin-right: 0.5rem;
+  }
+
+  &.dif {
+    background-color: #c77c5c;
+  }
+  &.medium {
+    background-color: #efb32e;
+  }
+  &.basic {
+    background-color: #50aa95;
+  }
+}
+
+.legend li {
+  display: inline-block;
+  list-style: none;
+}
+
+.schedule {
+  a {
+    //border-bottom: 0;
+
+  }
+}
+
+.hour {
+  margin: 0;
+  font-size: 0.7rem;
+  line-height: 0.8rem;
+
+  @include breakpoint(small) {
+    font-size: 0.65rem;
+    line-height: 0.75rem;
+  }
+}
+
+.intro {
+  color: #50aa95;
 }
