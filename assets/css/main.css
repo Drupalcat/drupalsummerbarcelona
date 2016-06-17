@@ -2937,3 +2937,8 @@ body.is-mobile.landing #footer {
 
 .intro {
   color: #50aa95; }
+
+/* Badges */
+.badge {
+  max-width: 100px;
+  display: inline-block; }
