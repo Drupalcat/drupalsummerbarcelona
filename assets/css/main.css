@@ -2925,6 +2925,12 @@ body.is-mobile.landing #footer {
   .session-details.basic {
     background-color: #50aa95; }
 
+.session-speaker {
+  line-height: 0.9rem;
+  display: block;
+  padding-top: .25rem;
+  color: #8E8892; }
+
 .legend li {
   display: inline-block;
   list-style: none; }
