@@ -2748,12 +2748,16 @@ body.is-mobile.landing #footer {
 .sponsor {
   display: inline-block;
   list-style: none;
-  width: 19%;
+  width: 16.1%;
   padding: 0;
-  margin-bottom: 1em; }
-  @media screen and (max-width: 736px) {
+  margin-bottom: 0.5em; }
+  @media screen and (max-width: 980px) {
     .sponsor {
-      width: 95%;
+      width: 32%;
+      margin-bottom: 1em; } }
+  @media screen and (max-width: 480px) {
+    .sponsor {
+      width: 45%;
       margin-bottom: 2em; } }
   .sponsor:hover {
     opacity: 0.8;
@@ -2773,7 +2777,7 @@ body.is-mobile.landing #footer {
     vertical-align: middle; }
     @media screen and (max-width: 980px) {
       .sponsor__img--vertical {
-        max-height: 100px; } }
+        max-height: 150px; } }
     @media screen and (max-width: 736px) {
       .sponsor__img--vertical {
         max-height: 200px; } }

@@ -1939,12 +1939,17 @@ body.is-mobile {
 .sponsor {
   display: inline-block;
   list-style: none;
-  width: 19%;
+  width: 16.1%;
   padding: 0;
-  margin-bottom: 1em;
+  margin-bottom: 0.5em;
 
-  @include breakpoint(small) {
-    width: 95%;
+  @include breakpoint(medium) {
+    width: 32%;
+    margin-bottom: 1em;
+  }
+
+  @include breakpoint(xsmall) {
+    width: 45%;
     margin-bottom: 2em;
   }
 
@@ -1974,7 +1979,7 @@ body.is-mobile {
     vertical-align: middle;
 
     @include breakpoint(medium) {
-      max-height: 100px;
+      max-height: 150px;
     }
 
     @include breakpoint(small) {
