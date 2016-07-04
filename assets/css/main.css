@@ -2939,6 +2939,12 @@ body.is-mobile.landing #footer {
   display: inline-block;
   list-style: none; }
 
+.legend-intro,
+.wrapper.style5 .legend-intro strong {
+  color: #50aa95;
+  font-size: 0.8rem;
+  line-height: 1rem; }
+
 .hour {
   margin: 0;
   font-size: 0.7rem;
