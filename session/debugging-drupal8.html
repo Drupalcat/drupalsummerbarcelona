@@ -70,6 +70,9 @@
                   <h3>by <a href="https://www.drupal.org/u/juampynr">Juampy NR</a></h3>
                 </div>
 
+                <p><a href="http://juampynr.github.io/debugging-drupal8" target="_blank">Session slides</a></p>
+                <p>&nbsp;</p>
+
                 <p>One of the first things that I found out when I started working with Drupal 8 is that: since the code is object oriented, it flows through a higher number of files than in Drupal 7. Therefore, debugging a piece of logic by using prints, dpms, dds and such becomes inefficient. Instead, we need to embrace and master the debugger; not only to find bugs but also to understand Drupal's APIs. My trust in the debugger is so strong that I think that developers who don’t learn how to use the debugger won’t last long in Drupal 8.</p>
                 <p>After installing the debugger, the first challenge is: where should I start from? Drupal 8's bootstrapping process can be daunting: it makes dozens of callbacks before the actual request handler that we are looking for gets called. This can be frustrating for beginners, but I discovered that it is a learning process that pays dividends. In this session I will show a few clips of real life examples where we find a bug, we use a debugging technique to understand it, and then we fix it.</p>
                 <p>Here are some of the topics that we will see:</p>
